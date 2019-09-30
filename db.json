@@ -1,14 +1,316 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "status": 200,
+    "code": 200,
+    "time": "2019-09-27T04:20:42.310+0000",
+    "correlationId": "83640a4e-82a7-499a-a73b-acb0ad82555a",
+    "requestId": "a9395c37-2de4-4b0e-b76f-d185e9d83fd7",
+    "path": "/networks/snrm/v2/reservations/sim",
+    "method": "POST",
+    "data": {
+        "resources": [
+            {
+                "resourceId": "89610170001004024663",
+                "resourceType": "SIM",
+                "resourceState": "AVAILABLE",
+                "relatedResources": [
+                    {
+                        "relationshipType": "Association",
+                        "resourceId": "505013600129549",
+                        "resourceType": "IMSI",
+                        "resourceState": "SIM ALLOCATED",
+                        "characteristics": [
+                            {
+                                "name": "SHLR",
+                                "value": "CLOO"
+                            },
+                            {
+                                "name": "Region",
+                                "value": "3NATU"
+                            },
+                            {
+                                "name": "SAuC",
+                                "value": "CLOO"
+                            },
+                            {
+                                "name": "PAuC",
+                                "value": "CUDB"
+                            },
+                            {
+                                "name": "PHLR",
+                                "value": "CUDB"
+                            }
+                        ]
+                    }
+                ],
+                "characteristics": [
+                    {
+                        "name": "AuC Auth Algorithm",
+                        "value": "MILENAGE_REAL_OP1"
+                    },
+                    {
+                        "name": "Bulk Order ID",
+                        "value": "SIM0000052365"
+                    },
+                    {
+                        "name": "Date Order Placed",
+                        "value": "27102017"
+                    },
+                    {
+                        "name": "PAuC",
+                        "value": "CUDB"
+                    },
+                    {
+                        "name": "PHLR",
+                        "value": "CUDB"
+                    },
+                    {
+                        "name": "PUK1",
+                        "value": "94901646"
+                    },
+                    {
+                        "name": "Graphical Reference",
+                        "value": "eSIM"
+                    },
+                    {
+                        "name": "FSETIND",
+                        "value": "2"
+                    },
+                    {
+                        "name": "SIM Order Type",
+                        "value": "3G eSIM"
+                    },
+                    {
+                        "name": "Part Number",
+                        "value": "eSIM"
+                    },
+                    {
+                        "name": "SIM Type",
+                        "value": "3G eSIM"
+                    },
+                    {
+                        "name": "SHLR",
+                        "value": "CLOO"
+                    },
+                    {
+                        "name": "MBO ID",
+                        "value": "19256024"
+                    },
+                    {
+                        "name": "Region",
+                        "value": "3NATU"
+                    },
+                    {
+                        "name": "Is Ordered",
+                        "value": "N"
+                    },
+                    {
+                        "name": "Card Vendor",
+                        "value": "TransKeySet_G&D2"
+                    },
+                    {
+                        "name": "Diversification Key",
+                        "value": "0005"
+                    },
+                    {
+                        "name": "Order Filename",
+                        "value": "T3N13777"
+                    },
+                    {
+                        "name": "Profile ID",
+                        "value": "2295.5304"
+                    },
+                    {
+                        "name": "SIM Category",
+                        "value": "Standard eSIM"
+                    },
+                    {
+                        "name": "AuC A4IND",
+                        "value": "2"
+                    },
+                    {
+                        "name": "PIN1",
+                        "value": "1646"
+                    },
+                    {
+                        "name": "AKA Type",
+                        "value": "FSETIND"
+                    },
+                    {
+                        "name": "SAuC",
+                        "value": "CLOO"
+                    },
+                    {
+                        "name": "SIM Artwork",
+                        "value": "eSIM"
+                    },
+                    {
+                        "name": "Order ID",
+                        "value": "0300819097"
+                    },
+                    {
+                        "name": "Transport Algorithm",
+                        "value": "AES"
+                    }
+                ]
+            },
+            {
+                "resourceId": "89610170001004024741",
+                "resourceType": "SIM",
+                "resourceState": "AVAILABLE",
+                "relatedResources": [
+                    {
+                        "relationshipType": "Association",
+                        "resourceId": "505013600129784",
+                        "resourceType": "IMSI",
+                        "resourceState": "SIM ALLOCATED",
+                        "characteristics": [
+                            {
+                                "name": "SHLR",
+                                "value": "CLOO"
+                            },
+                            {
+                                "name": "Region",
+                                "value": "3NATU"
+                            },
+                            {
+                                "name": "SAuC",
+                                "value": "CLOO"
+                            },
+                            {
+                                "name": "PAuC",
+                                "value": "CUDB"
+                            },
+                            {
+                                "name": "PHLR",
+                                "value": "CUDB"
+                            }
+                        ]
+                    }
+                ],
+                "characteristics": [
+                    {
+                        "name": "AuC Auth Algorithm",
+                        "value": "MILENAGE_REAL_OP1"
+                    },
+                    {
+                        "name": "Bulk Order ID",
+                        "value": "SIM0000052365"
+                    },
+                    {
+                        "name": "Date Order Placed",
+                        "value": "27102017"
+                    },
+                    {
+                        "name": "PAuC",
+                        "value": "CUDB"
+                    },
+                    {
+                        "name": "PHLR",
+                        "value": "CUDB"
+                    },
+                    {
+                        "name": "PUK1",
+                        "value": "44583495"
+                    },
+                    {
+                        "name": "Graphical Reference",
+                        "value": "eSIM"
+                    },
+                    {
+                        "name": "FSETIND",
+                        "value": "2"
+                    },
+                    {
+                        "name": "SIM Order Type",
+                        "value": "3G eSIM"
+                    },
+                    {
+                        "name": "Part Number",
+                        "value": "eSIM"
+                    },
+                    {
+                        "name": "SIM Type",
+                        "value": "3G eSIM"
+                    },
+                    {
+                        "name": "SHLR",
+                        "value": "CLOO"
+                    },
+                    {
+                        "name": "MBO ID",
+                        "value": "19256018"
+                    },
+                    {
+                        "name": "Region",
+                        "value": "3NATU"
+                    },
+                    {
+                        "name": "Is Ordered",
+                        "value": "N"
+                    },
+                    {
+                        "name": "Card Vendor",
+                        "value": "TransKeySet_G&D2"
+                    },
+                    {
+                        "name": "Diversification Key",
+                        "value": "0005"
+                    },
+                    {
+                        "name": "Order Filename",
+                        "value": "T3N13777"
+                    },
+                    {
+                        "name": "Profile ID",
+                        "value": "2295.5304"
+                    },
+                    {
+                        "name": "SIM Category",
+                        "value": "Standard eSIM"
+                    },
+                    {
+                        "name": "AuC A4IND",
+                        "value": "2"
+                    },
+                    {
+                        "name": "PIN1",
+                        "value": "3495"
+                    },
+                    {
+                        "name": "AKA Type",
+                        "value": "FSETIND"
+                    },
+                    {
+                        "name": "SAuC",
+                        "value": "CLOO"
+                    },
+                    {
+                        "name": "SIM Artwork",
+                       "value": "eSIM"
+                    },
+                    {
+                        "name": "Order ID",
+                        "value": "0300819097"
+                    },
+                    {
+                        "name": "Transport Algorithm",
+                        "value": "AES"
+                    }
+                ]
+            }
+        ]
+    },
+    "request": {
+        "params": {},
+        "method": "POST",
+        "path": "/networks/snrm/v2/reservations/sim",
+        "data": {
+            "poolName": "eSIM",
+            "activityName": "RESERVE",
+            "categoryType": "Standard eSIM",
+            "searchStatus": "AVAILABLE",
+            "quantity": "2",
+            "characteristics": "true"
+        }
+    }
 }
